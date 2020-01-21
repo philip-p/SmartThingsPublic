@@ -110,6 +110,9 @@ metadata {
 
 		// Wemo
 		fingerprint profileId: "0104", inClusters: "0000, 0003, 0004, 0005, 0006, 0008, FF00", outClusters: "0019", manufacturer: "MRVL", model: "MZ100", deviceJoinName: "Wemo Bulb"
+       
+        // Umbrela
+        fingerprint profileId: "0104", deviceId: "0101", inClusters: "0000, 0003, 0004, 0005, 0006, 0008", outClusters: "0019", manufacturer: "Umbrela", model: "uMicro", deviceJoinName: "Umbrela uMicro Wall Dimmer"
 	}
 
 	tiles(scale: 2) {
